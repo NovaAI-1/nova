@@ -1,0 +1,111 @@
+/* Designing the nav bar */
+.navBar{
+    margin-right:8%;
+    text-decoration: none;
+    color:white;
+}
+/* Styling for the header */
+header{
+    background-color: black;
+    height: 39px;
+    width: 100%;
+    padding-top: 15px;
+}
+/* Styling for the website's heading */
+#webHeading{
+    text-align: center;
+    font-family: "Elephant";
+}
+/* Styling for the aimList of HTML */
+#aimList{
+    font-size: larger;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    color:black;
+}
+/* Styling for the founder informations */
+#founderInfo{
+    text-align: center;
+    font-size:x-large;
+    font-weight:bold;
+    font-style: italic;
+}
+/* Styling founder image */
+#founderImg{
+    color:rgb(71, 71, 226);
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+/* Other images of this website */
+.image{
+    border-radius: 10px;
+}
+/* Styling for changing mode */
+.dark{
+    background-color: black;
+    #founderInfo{
+        color: greenyellow;
+    }
+    #aimList{
+        color: aqua;
+    }
+    header{
+        background-color: white;
+    }
+    .navBar{
+        color:black;
+        font-size: medium;
+    }
+    #downloadMessage{
+        color:antiquewhite;
+    }
+}
+.light{
+    background-color: white;
+}
+/* Styling for Follow links(eg.twitter profile link)&button */
+#followLinks{
+    text-align: center;
+}
+/* Styling for the downloadButton */
+.downloadButton{
+    text-align: center;
+    text-decoration:none;
+}
+/* Styling for the ejnsaDownloadButton */
+#ejnsaDownloadButton{
+    width:60px;
+    margin: 0px;
+    border-radius: 30px;
+}
+/* Styling for the search bar */
+#searchInput{
+    margin-left: 150px;
+    border-radius: 10px;
+    width: 146px;
+    height: 15px;
+    text-align: center;
+    border-style:ridge;
+    border-color: black;
+    font-size:small;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#searchButton{
+    border-radius: 8px;
+    background-color: orange;
+    text-align: center;
+    padding-bottom: 3px;
+    text-decoration: none;
+    color: #000;
+    height: 1px;
+    width: 15px;
+    font-size: small;
+}
+/* Styling for the window's logo*/
+#windowLogo{
+    border-radius: 15px;
+    margin-top: 150px;
+}

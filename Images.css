@@ -1,0 +1,16 @@
+.images{
+    border-radius: 5%;
+    border-style: inherit;
+    border-color: aqua;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+body{
+    background-color:black;
+}
+h1{
+    color:cyan;
+    text-align: center;
+    font-size:xx-large;
+    font-style: italic;
+}

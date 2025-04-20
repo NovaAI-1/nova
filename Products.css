@@ -1,0 +1,25 @@
+#ejnsaImage{
+    border-radius: 5%;
+    border-color: darkgray;
+    border-style:solid;
+}
+body{
+    background-color: aqua;
+}
+p{
+    font-size:x-large;
+    text-align: center;
+}
+h1{
+    font-size: xx-large;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 0%;
+}
+hr{
+    color:rgb(182, 167, 167)
+}
