@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NovaAI</title>
     <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
@@ -14,10 +15,10 @@
             <a class="navBar" href="Videos.html">Videos</a>
             <a class="navBar" href="Products.html">Products</a>
             <input id="searchInput" type="text" placeholder="Search products" list="products">
+            <a href="Products.html"><i class="fa-solid fa-magnifying-glass" id="searchButton"></i></a>
             <datalist id="products">
                 <option value="EJNSA"></option>
             </datalist>
-            <a href="Products.html" id="searchButton">Search</a>
         </div>
     </header>
     <main>
@@ -49,9 +50,13 @@
             <p style="color: green;">The founder of NovaAI</p>
             <p>Amolendu Das Dipto is the founder of NovaAI.<br>As of 2025,he is just 14 years old!<br>His aim is to creating a strong AGI.(2054~R)</p>
         </div>
-        <button id="changeMode">Dark mode</button>
         <div id="followLinks">
+            <p>Follow on:</p>
+            <a href="https://youtube.com/@baby-gamer-369?si=QVhGNP7pJFl1g9o1" target="_blank" rel="noopener noreferrer"><img src="youtubelogo.webp" alt="Youtube" width="50" id="followLinks"></a>
+            <a href="https://x.com/ChessMa08372272?s=09" target="_blank" rel="noopener noreferrer"><img src="twitterlogo.png" alt="Twitter" width="50" id="followLinks"></a>
+            <a href="https://www.chess.com/member/s6pv" target="_blank" rel="noopener noreferrer"><img src="chesslogo.png" alt="Chess.com" width="60" id="followLinks"></a>
         </div>
+                <button id="changeMode">Dark mode</button>
     </main>
     <footer></footer>
     <script src="Script.js"></script>

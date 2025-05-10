@@ -68,6 +68,10 @@ header{
 /* Styling for Follow links(eg.twitter profile link)&button */
 #followLinks{
     text-align: center;
+    font-size: large;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-right: 10px;
 }
 /* Styling for the downloadButton */
 .downloadButton{
@@ -83,26 +87,25 @@ header{
 /* Styling for the search bar */
 #searchInput{
     margin-left: 150px;
-    border-radius: 10px;
-    width: 146px;
+    border-radius: 30px;
+    width: 170px;
     height: 15px;
     text-align: center;
     border-style:ridge;
     border-color: black;
     font-size:small;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    gap: 0px;
+    margin-right:-27px;
 
 }
 #searchButton{
-    border-radius: 8px;
-    background-color: orange;
+    border-radius: 10px;
     text-align: center;
     padding-bottom: 3px;
-    text-decoration: none;
     color: #000;
-    height: 1px;
-    width: 15px;
-    font-size: small;
+    gap: 0px;
+    width: 20px;
 }
 /* Styling for the window's logo*/
 #windowLogo{
