@@ -2,13 +2,18 @@
     border-radius: 5%;
     border-color: darkgray;
     border-style:solid;
+    margin-left: 20px;
+}
+main{
+    background-color: aqua;
 }
 body{
-    background-color: aqua;
+    background-color: black;
 }
 p{
     font-size:x-large;
     text-align: center;
+    margin-right: 30px;
 }
 h1{
     font-size: xx-large;
@@ -22,4 +27,23 @@ h1{
 }
 hr{
     color:rgb(182, 167, 167)
+}
+#novelLogo{
+    width: 405px;
+    border-radius: 5%;
+    border-style: dotted;
+    border-color: white;
+    margin-left: 200px;
+}
+#followLinks{
+    text-align: center;
+    margin-left: 250px;
+    border-radius: 10px;
+}
+#followLink{
+        color: yellowgreen;
+}
+footer{
+    background-color: black;
+    height: 50%;
 }
