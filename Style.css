@@ -61,6 +61,9 @@ header{
     #downloadMessage{
         color:antiquewhite;
     }
+    #followText{
+        color: rgb(197, 90, 51);
+    }
 }
 .light{
     background-color: white;
@@ -86,17 +89,18 @@ header{
 }
 /* Styling for the search bar */
 #searchInput{
-    margin-left: 150px;
+    margin-left:20px;
+    margin-top: 5px;
     border-radius: 30px;
-    width: 170px;
-    height: 15px;
+    width: 80%;
+    height: 25px;
     text-align: center;
     border-style:ridge;
     border-color: black;
     font-size:small;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     gap: 0px;
-    margin-right:-27px;
+    margin-right:-30px;
 
 }
 #searchButton{
@@ -107,8 +111,28 @@ header{
     gap: 0px;
     width: 20px;
 }
+/* Styling for the contact button*/
+#contactButton{
+    text-decoration: none;
+    font-style: italic;
+    border-style: inherit;
+    background-color: orange;
+    border-radius: 10px;
+    width: 100px;
+    height: 25px;
+    margin-left: 100px;
+}
+#contactButton:hover{
+        cursor:pointer;
+}
 /* Styling for the window's logo*/
 #windowLogo{
     border-radius: 15px;
     margin-top: 150px;
+}
+/* Styling for the dark mode button*/
+#changeMode{
+    border-radius: 10px;
+    border-style: dotted;
+    border-color: darkblue;
 }
