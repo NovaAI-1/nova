@@ -1,6 +1,6 @@
 /* Designing the nav bar */
 .navBar{
-    margin-right:8%;
+    margin-right:9%;
     text-decoration: none;
     color:white;
 }
@@ -120,11 +120,13 @@ header{
     border-radius: 10px;
     width: 100px;
     height: 25px;
-    margin-left: 100px;
+    margin-left: 30px;
+    position:relative;
 }
 #contactButton:hover{
         cursor:pointer;
 }
+/* Styling for the hire button*/
 #hireButton{
     text-decoration: none;
     font-style: italic;
@@ -134,6 +136,9 @@ header{
     width: 100px;
     height: 25px;
     margin-left: 10px;
+}
+#hireButton:hover{
+    cursor:pointer;
 }
 /* Styling for the window's logo*/
 #windowLogo{
