@@ -125,6 +125,16 @@ header{
 #contactButton:hover{
         cursor:pointer;
 }
+#hireButton{
+    text-decoration: none;
+    font-style: italic;
+    border-style: inherit;
+    background-color: orange;
+    border-radius: 10px;
+    width: 100px;
+    height: 25px;
+    margin-left: 10px;
+}
 /* Styling for the window's logo*/
 #windowLogo{
     border-radius: 15px;
