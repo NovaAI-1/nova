@@ -121,7 +121,7 @@ header{
     width: 100px;
     height: 25px;
 }
-#contactButton:hover{
+#contactAndHireMeButton:hover{
         cursor:pointer;
 }
 /* Styling for the window's logo*/
