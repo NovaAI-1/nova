@@ -64,9 +64,11 @@ header{
     #followText{
         color: rgb(197, 90, 51);
     }
+    transition-duration: 1s;
 }
 .light{
     background-color: white;
+    transition-duration: 1s;
 }
 /* Styling for Follow links(eg.twitter profile link)&button */
 #followLinks{
